@@ -19,4 +19,4 @@ The scene imagery — hero panorama, the La Storia lemon grove, and the seven ga
 
 ## Environment gotcha
 
-The git repo at `/home/charl` (home directory root) is **not** related to this project — it appears to be an accidental `git init` in `$HOME` with an unrelated project (`yashoku-blog`) staged inside it, plus dotfiles and `.ssh`. This project has its own independent repo rooted at `fable-concept/`. Never run git commands here assuming the home-directory repo is relevant, and never stage/push anything from outside this directory.
+The git repo at `/home/charl` (home directory root) is **not** related to this project — it appears to be an accidental `git init` in `$HOME` with an unrelated project (`yashoku-blog`) staged inside it, plus dotfiles and `.ssh`. This project has its own independent repo rooted at `limoncello/`. Never run git commands here assuming the home-directory repo is relevant, and never stage/push anything from outside this directory.
