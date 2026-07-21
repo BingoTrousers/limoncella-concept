@@ -1,14 +1,16 @@
 # Limoncella — project notes
 
-HTML landing page (`index.html` plus an `images/` folder) for a fictional Amalfi Coast restaurant. Design concept piece, not a production app.
+HTML landing page (`index.html` plus an `images/` folder) for Limoncella, a fictional Italian restaurant set in an invented coastal town called Amber Cove — not a real place, not Italy. Design concept piece, not a production app.
+
+The site copy is English-only. The restaurant's cuisine and menu keep Italian flair on purpose (dish names like "Linguine alle Vongole" and "Tiramisù al Limoncello", course headers Antipasti/Primi/Secondi/Dolci, words like "aperitivo") — that's the restaurant's own culinary identity, not a claim about where it's located. Everything else (nav labels, section copy, the founder's quote, address, phone, postcard/stamp text) is plain English and refers to the fictional Amber Cove, never Italy or any real Italian place name. Keep this distinction in mind when editing: Italian menu vocabulary stays, Italian *sentences* or real Italian geography do not.
 
 ## Structure
 
 All code — HTML, CSS, JS — lives in `index.html`; the only local assets are the photographs in `images/`. No build tooling, no package.json, no dependencies except two Google Fonts pulled via `<link>` (Cormorant Garamond, Jost).
 
-Sections, top to bottom, follow one evening's light (see the `ore HH:MM` eyebrows on each section): hero (sunset) → story → menu → gallery → hours/location (dusk) → footer (night).
+Sections, top to bottom, follow one evening's light (see the time-stamped eyebrows on each section, e.g. "7:10 PM"): hero (sunset) → story → menu → gallery → hours/location (dusk) → footer (night).
 
-The scene imagery — hero panorama, the La Storia lemon grove, and the seven gallery tiles — are free-license stock photographs stored locally in `images/` and wired in as CSS `background-image` / `.hero-photo` (credits are in an HTML comment near the bottom of `index.html`). The smaller decorative marks — section dividers, the postcard map, the postal stamp, the favicon — are still hand-authored inline SVG and should stay that way. When sourcing replacement photos, they must be genuinely free to use: Unsplash images flagged `premium`/`plus` (Unsplash+) are **not** free, come watermarked, and must be avoided — verify the `premium`/`plus` fields via `unsplash.com/napi/photos/<id>` before using one.
+The scene imagery — hero panorama, the story-section lemon grove, and the seven gallery tiles — are free-license stock photographs stored locally in `images/` and wired in as CSS `background-image` / `.hero-photo` (credits are in an HTML comment near the bottom of `index.html`). The smaller decorative marks — section dividers, the postcard map, the postal stamp, the favicon — are still hand-authored inline SVG and should stay that way. When sourcing replacement photos, they must be genuinely free to use: Unsplash images flagged `premium`/`plus` (Unsplash+) are **not** free, come watermarked, and must be avoided — verify the `premium`/`plus` fields via `unsplash.com/napi/photos/<id>` before using one.
 
 ## Working on this file
 

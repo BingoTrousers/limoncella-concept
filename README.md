@@ -1,6 +1,6 @@
 # Limoncella
 
-An editorial-style landing page for **Limoncella** — a fictional coastal Italian restaurant perched above the Amalfi coast. Built as a design concept: golden-hour hero, sensory storytelling, a six-dish menu, a photographic gallery, and a postcard-style hours & location block.
+An editorial-style landing page for **Limoncella** — a fictional Italian restaurant perched above a fictional coastal town, Amber Cove. Built as a design concept: golden-hour hero, sensory storytelling, a six-dish menu, a photographic gallery, and a postcard-style hours & location block.
 
 ## View it
 
